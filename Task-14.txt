@@ -1,0 +1,16 @@
+Font Family :Inter
+link: https://fonts.google.com/specimen/Inter
+
+Font Size
+H1 :72px
+H2 :24px
+H3 :20px
+
+
+Colours :
+Color1:F8F8F8
+Color2:1C2327
+
+
+
+

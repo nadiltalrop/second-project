@@ -1,0 +1,2810 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+    max-width: 1280px;
+}
+ol, ul {
+	list-style: none;
+    text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "interregular";
+	font-size: 17px;
+	color: black;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+    text-decoration: none;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "interregular";
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "interregular";
+	font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: 'interregular';
+    src: url('font/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('font/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#top{
+    background: url(images/Vector\ 279.png)no-repeat;
+    background-size: cover,contain;
+    width: 100%;
+    height: 904px;
+	position: relative;
+}
+#top div.subtract-image img{
+	width: 100%;
+	height: 904px;
+	display: block;
+	
+}
+#top header {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top:0px;
+}
+#top header section.header-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+#top header section.wrapper section.header-section div.left h1 a img{
+	display: block;
+	width:75px;
+	filter: invert(1);
+	margin-top: 10px;
+    margin-left: -61px;
+}
+#top header section.wrapper section.header-section div.middle ul{
+	display: flex;
+	justify-content: space-between;
+}
+#top header section.wrapper section.header-section div.middle ul li a{
+	margin-left: 28px;
+    color: #f8f8f8;
+    font-size: 15px;
+    font-weight: 500;
+}
+#top header section.wrapper section.header-section div.right a.button{
+	background: rgb(32,190,77);
+	background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+	padding: 12px 24px;
+    border-radius: 18px;
+	color: #f8f8f8;
+	font-size: 15px;
+	font-weight: 600;
+}
+#top section.spotlight-area{
+	position: absolute;
+	top: 170px;
+	left: 60px;
+}
+#top section.spotlight-area section.wrapper div.spotlight-content h1{
+	color: #f8f8f8;
+    font-size: 50px;
+    font-weight: 600;
+    width: 59%;
+    margin-left: 0px;
+}
+#top section.spotlight-area section.wrapper div.spotlight-content p{
+	color: #f8f8f8;
+    font-size: 13px;
+    width: 69%;
+    margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+#top section.spotlight-area section.wrapper div.spotlight-content a.button{
+	background: rgb(32,190,77);
+	background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+	padding: 12px 24px;
+    border-radius: 18px;
+	color: #f8f8f8;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+#about-service{
+	width: 100%;
+    height: 410px;
+    background: url(images/Vector\ 283.png)no-repeat;
+    background-size: 761px;
+    margin-top: -150px;
+	display: block;
+}
+#about-service section.wrapper div.content{
+	padding-top: 100px;
+	padding-left: 30px;
+}
+#about-service section.wrapper div.content h2{
+	font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+	color: #1c2327;
+}
+#about-service section.wrapper div.content p{
+	font-size: 14px;
+	font-weight: 500;
+	width: 57%;
+    margin-left: 0px;
+	color: #1c2327;
+}
+
+
+
+
+
+
+
+
+#our-services{
+	width: 100%;
+	background: #fff;
+}
+#our-services section.wrapper div.services-section div.heading h2{
+	text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+	color: #1c2327;
+	margin: 20px auto;
+}
+#our-services section.wrapper div.services-section div.services{
+	text-align: center;
+}
+#our-services section.wrapper div.services-section div.services ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto;
+	align-items: center;
+	width: 90%;
+}
+#our-services section.wrapper div.services-section div.services ul li{
+	position: relative;
+}
+#our-services section.wrapper div.services-section div.services ul li img.logo{
+	position: absolute;
+    bottom: 193px;
+    right: 153px;
+    width: 40px;
+    filter: invert(1);
+}
+#our-services section.wrapper div.services-section div.services ul li h3{
+	font-size: 20px;
+	color: #1c2327;
+	font-weight: 600;
+	margin: 10px auto;
+}
+#our-services section.wrapper div.services-section div.services ul li p{
+	font-size: 16px;
+	color: #1c2327;
+	font-weight: 500;
+	width: 86%;
+}
+
+
+
+
+
+
+
+
+#work{
+	width: 100%;
+	height: 760px;
+	background: url(images/Vector\ 284.png)no-repeat;
+	background-size: contain;
+    background-position: left;
+}
+#work section.wrapper div.work-area{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 171px;
+}
+#work section.wrapper div.work-area div.left img{
+	width: 90%;
+	height: 385px;
+	border-radius:61% 39% 62% 38% / 41% 51% 49% 59%;
+	display: block;
+}
+#work section.wrapper div.work-area div.right{
+	margin-left: 10px;
+    padding-top: 79px;
+	width: 56%;
+}
+#work section.wrapper div.work-area div.right h3{
+	margin: 20px auto;
+	font-size: 38px;
+	color: #1c2327;
+	font-weight: 600;
+	width: 90%;
+}
+#work section.wrapper div.work-area div.right p{
+	font-size: 16px;
+    color: #1c2327;
+    font-weight: 500;
+    width: 90%;
+	margin-bottom: 30px;
+}
+#work section.wrapper div.work-area div.right a.button{
+	background: rgb(32,190,77);
+	background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+	padding: 12px 24px;
+    border-radius: 18px;
+	color: #f8f8f8;
+	font-size: 15px;
+	font-weight: 600;	
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+#confrence{
+	width: 100%;
+	height: 450px;
+	background: #fff;
+}
+#confrence section.confrence-area{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 450px;
+}
+#confrence section.confrence-area div.left h2{
+	margin-top: 166px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #1c2327;
+    width: 90%;
+}
+#confrence section.confrence-area div.right div.flex ul{
+	display: flex;
+	justify-content: space-between;
+}
+#confrence section.confrence-area div.right div.flex ul li{
+    margin-top: 116px;
+	text-align: center;
+}
+#confrence section.confrence-area div.right div.flex ul li h3{
+	font-size: 22px;
+    color: #1c2327;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#confrence section.confrence-area div.right div.flex ul li p{
+	font-size: 16px;
+    color: #1c2327;
+    font-weight: 500;
+    width: 87%;
+    text-align: center;
+}
+#confrence section.confrence-area div.right div.flex ul li:first-child{
+	margin-left: 80px;
+}
+#confrence section.confrence-area div.right div.flex ul li:last-child{
+	margin-left: 180px;
+}
+#confrence section.confrence-area div.right div.flex img{
+	width: 60px;
+}
+#confrence section.confrence-area div.right{
+	position: relative;
+}
+#confrence section.confrence-area div.right div.items h3{
+	font-size: 22px;
+    color: #1c2327;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#confrence section.confrence-area div.right div.items p{
+	font-size: 16px;
+    color: #1c2327;
+    font-weight: 500;
+    width: 57%;
+    text-align: center;
+}
+#confrence section.confrence-area div.right div.items div.top{
+	position: absolute;
+    top: 15px;
+    left: 250px;
+    text-align: center;
+    width: 50%;
+}
+#confrence section.confrence-area div.right div.items div.bottom{
+	position: absolute;
+    top: 275px;
+    left: 250px;
+	text-align: center;
+    width: 50%;
+}
+
+#confrence section.confrence-area div.right div.items img{
+	width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#redefine{
+	width: 100%;
+	height: 800px;
+	background: url(images/Vector\ 285.png)no-repeat;	
+	background-position: right;
+	background-size: contain;
+}
+#redefine section.wrapper section.redefine-area{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 170px;
+}
+#redefine section.wrapper section.redefine-area div.left{
+	width: 50%;
+}
+#redefine section.wrapper section.redefine-area div.left h2{
+	margin-top: 70px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #1c2327;
+    width: 90%;
+	margin-bottom: 10px;
+}
+#redefine section.wrapper section.redefine-area div.left h3{
+	margin-bottom: 10px;
+	margin-left: 27px;
+	font-size: 20px;
+    color: #1c2327;
+    font-weight: 600;
+}
+#redefine section.wrapper section.redefine-area div.left p{
+	margin-bottom: 10px;
+	font-size: 15px;
+    color: #1c2327;
+    font-weight: 500;
+    width: 92%;
+}
+#redefine section.wrapper section.redefine-area div.right{
+	width: 50%;
+}
+#redefine section.wrapper section.redefine-area div.right img{
+	width: 90%;
+	height: 385px;
+	border-radius:61% 39% 62% 38% / 41% 51% 49% 59%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+#talks{
+	width: 100%;
+	height: 525px;
+	
+}
+#talks section.wrapper div.top{
+	width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+#talks section.wrapper div.top h2{
+	font-size: 38px;
+    font-weight: 600;
+    color: #1c2327;
+}
+#talks section.wrapper div.middle{
+	width: 100%;
+	height: 280px;
+	margin-top: 40px;
+}
+#talks section.wrapper div.middle ul{
+	display: flex;
+	justify-content: space-between;
+}
+#talks section.wrapper div.middle ul li{
+	position: relative;
+	width: 50%;
+}
+#talks section.wrapper div.middle ul li.img-section{
+	position: relative;
+    width: 25%;
+    justify-content: center;
+    margin-left: 238px;
+}
+#talks section.wrapper div.middle ul li img.bgimage{
+	width: 280px;
+}
+#talks section.wrapper div.middle ul li img.man{
+	width: 37%;
+    height: 103px;
+    border-radius: 50%;
+    position: absolute;
+    border: 4px solid #fff;
+    left: 80px;
+    top: 80px;
+}
+#talks section.wrapper div.middle ul li.text-area{
+	padding-top: 50px;
+}
+#talks section.wrapper div.middle ul li.text-area h3{
+	font-size: 26px;
+    color: #1c2327;
+    font-weight: 600;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+#talks section.wrapper div.middle ul li.text-area p{
+	font-size: 15px;
+    color: #1c2327;
+    font-weight: 500;
+    width: 89%;	
+}
+#talks section.wrapper div.bottom{
+	width: 100%;
+    height: 100px;
+    margin-top: 45px;
+}
+#talks section.wrapper div.bottom ul li{
+	text-align: center;
+}
+#talks section.wrapper div.bottom ul li span{
+	font-size: 40px;
+    font-weight: 800;
+}
+#talks section.wrapper div.bottom ul li img{
+	width: 175px;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+#bottom-page{
+	width: 100%;
+	height: 773px;
+	background: green;
+	border-radius:53% 47% 70% 30% / 64% 34% 66% 36% ; 
+	margin-top: 120px;
+	position: relative;
+}
+#bottom-page div.images{
+	position: relative;
+	width: 100%;
+	height: 773px;
+}
+#bottom-page div.images img.grey{
+	display: block;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0px;
+    top: 29px;
+    width: 94%;
+    height: 94%;
+}
+#bottom-page div.images img.dark-blue{
+	display: block;
+    width: 1280px;
+    height: 100%;
+    position: absolute;
+    top: 44px;
+   right: 0px;
+}
+#bottom-page section.data-area{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 100px;
+}
+#bottom-page section.wrapper section.data-area div.left{
+	width: 50%;
+}
+#bottom-page section.wrapper section.data-area div.left img{
+	width: 79%; 
+	height: 373px;
+	border-radius:61% 39% 62% 38% / 41% 51% 49% 59%;
+	display: block;
+}
+#bottom-page section.wrapper section.data-area div.right{
+	width: 50%;
+}
+#bottom-page section.wrapper section.data-area div.right h3{
+	font-size: 26px;
+    color: #1c2327;
+    font-weight: 600;
+	margin-bottom: 20px;
+}
+#bottom-page section.wrapper section.data-area div.right form{
+	width: 99%;
+    height: 250px;
+    margin-left: 0px;
+	margin-bottom: 40px;
+}
+#bottom-page section.wrapper section.data-area div.right form input{
+	background: #f8f8f8;
+	color: #1c2327;
+}
+#bottom-page section.wrapper section.data-area div.right form input[type=text]{
+	padding: 10px;
+    width: 39%;
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+#bottom-page section.wrapper section.data-area div.right form input[type=number]{
+	padding: 10px;
+	width: 39%;
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+#bottom-page section.wrapper section.data-area div.right form textarea{
+	background:#f8f8f8;
+	width: 475px;
+	border-radius: 12px;
+	padding: 12px;
+}
+#bottom-page section.wrapper section.data-area div.right form textarea.last{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#bottom-page hr{
+ 	border: 1px solid #fff;
+    position: absolute;
+    bottom: 219px;
+	width: 82%;
+	margin-left: 120px;
+}
+#bottom-page section.wrapper section.data-area div.right a.button{
+	background: rgb(32,190,77);
+	background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+	padding: 12px 24px;
+    border-radius: 18px;
+	color: #f8f8f8;
+	font-size: 15px;
+	font-weight: 600;	
+	margin-left: 10px;
+
+}
+
+
+
+
+#bottom-page footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 180px;
+}
+#bottom-page footer section.footer-area{
+	display: flex;
+	justify-content: space-between;
+}
+#bottom-page footer section.wrapper section.footer-area ul li{
+	color: #f8f8f8;
+}
+#bottom-page footer section.wrapper section.footer-area ul li a{
+	color: #f8f8f8;
+	line-height: 2em;
+	font-size: 10px;
+}
+#bottom-page footer section.wrapper section.footer-area ul li h4{
+	font-size: 18px;
+	font-size: 600;
+}
+#bottom-page footer section.wrapper section.footer-area div.one{
+	width: 15%;
+}
+#bottom-page footer section.wrapper section.footer-area div.one ul li p{
+	font-size: 18px;
+	font-weight: 600;
+}
+#bottom-page footer section.wrapper section.footer-area div.one ul li ul{
+	display: flex;
+	justify-content: space-between;
+}
+#bottom-page footer section.wrapper section.footer-area div.one ul li ul li a img{
+	filter: invert(1);
+	padding: 7px 7px 0px 7px;
+	width: 30px;
+}
+#bottom-page footer section.wrapper section.footer-area div.one ul li ul.icon-social li.icon{
+	background: rgb(50, 196, 50);
+	border-radius: 8px;
+}
+#bottom-page footer section.wrapper section.footer-area div.two{
+	padding-top: 24px;
+}
+#bottom-page footer section.wrapper section.footer-area div.four{
+	padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1280px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 904px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 903px;
+		display: block;
+	}
+	#top header section.wrapper section.header-section div.left h1 a img {
+		display: block;
+		width: 70px;
+		filter: invert(1);
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#top header section.wrapper section.header-section div.middle{
+		margin-left: 0px;
+	}
+	#top header section.wrapper section.header-section div.middle ul li a {
+		margin-left: 28px;
+		color: #f8f8f8;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	#top header section.wrapper section.header-section div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 13px;
+		font-weight: 600;
+	}
+	#top section.spotlight-area {
+		position: absolute;
+		top: 140px;
+		left: 60px
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content h1 {
+    	color: #f8f8f8;
+    	font-size: 40px;
+    	font-weight: 600;
+    	width: 59%;
+   	 	margin-left: 0px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 12px;
+		width: 63%;
+		margin-left: 0px;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+
+	#about-service section.wrapper div.content h2 {
+		font-size: 35px;
+		font-weight: 600;
+		margin-bottom: 10px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.content p {
+		font-size: 13px;
+		font-weight: 500;
+		width: 57%;
+		margin-left: 0px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.content {
+		padding-top: 110px;
+		padding-left: 30px;
+	}
+
+
+	#our-services section.wrapper div.services-section div.heading h2 {
+		text-align: center;
+		font-size: 34px;
+		font-weight: 600;
+		color: #1c2327;
+		margin: 20px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 171px;
+		right: 154px;
+		width: 40px;
+		filter: invert(1);
+	}
+	#our-services section.wrapper div.services-section div.services ul li h3 {
+		font-size: 18px;
+		color: #1c2327;
+		font-weight: 600;
+		margin: 10px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li p {
+		font-size: 13px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+	}
+
+
+	#work {
+		width: 100%;
+		height: 755px;
+		background: url(images/Vector\ 284.png)no-repeat;
+		background-size: cover;
+		background-position: left;
+	}
+	#work section.wrapper div.work-area {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding-top: 131px;
+	}
+	#work section.wrapper div.work-area div.left img {
+		width: 88%;
+		height: 290px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#work section.wrapper div.work-area div.right h3 {
+		margin: 20px auto;
+		font-size: 31px;
+		color: #1c2327;
+		font-weight: 600;
+		width: 90%;
+	}
+	#work section.wrapper div.work-area div.right p {
+		font-size: 13px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+		margin-bottom: 30px;
+	}
+	#work section.wrapper div.work-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 12px;
+		font-weight: 600;
+		margin-left: 40px;
+	}
+
+
+	#confrence section.confrence-area div.left h2 {
+		margin-top: 166px;
+		font-size: 24px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 100%;
+	}
+	#confrence section.confrence-area div.right div.flex img {
+		width: 50px;
+	}
+	#confrence section.confrence-area div.right div.items img {
+		width: 50px;
+	}
+	#confrence section.confrence-area div.right div.flex ul li h3 {
+		font-size: 20px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	#confrence section.confrence-area div.right div.flex ul li p {
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 87%;
+		text-align: center;
+	}	
+	#confrence section.confrence-area div.right div.items h3 {
+		font-size: 20px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	#confrence section.confrence-area div.right div.items p {
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 57%;
+		text-align: center;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 15px;
+		left: 226px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 240px;
+		left: 226px;
+		text-align: center;
+		width: 50%;
+	}
+
+
+	#redefine {
+		width: 100%;
+		height: 760px;
+		background: url(images/Vector\ 285.png)no-repeat;
+		background-position: right;
+		background-size: cover;
+	}
+	#redefine section.wrapper section.redefine-area {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 123px;
+	}
+	#redefine section.wrapper section.redefine-area div.left {
+		width: 55%;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 90px;
+		font-size: 32px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 90%;
+		margin-bottom: 5px;
+	}
+	#redefine section.wrapper section.redefine-area div.left p {
+		margin-bottom: 10px;
+		font-size: 12px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 92%;
+	}
+	#redefine section.wrapper section.redefine-area div.right img {
+		width: 92%;
+		height: 327px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+
+
+	#talks {
+		width: 100%;
+		height: 446px;
+	}
+	#talks section.wrapper div.top h2 {
+		font-size: 33px;
+		font-weight: 600;
+		color: #1c2327;
+	}
+	#talks section.wrapper div.middle ul li.img-section {
+		position: relative;
+		width: 25%;
+		justify-content: center;
+		margin-left: 189px;
+	}
+	#talks section.wrapper div.middle ul li img.bgimage {
+		width: 205px;
+	}
+	#talks section.wrapper div.middle ul li img.man {
+		width: 34%;
+		height: 76px;
+		border-radius: 50%;
+		position: absolute;
+		border: 4px solid #fff;
+		left: 63px;
+		top: 58px;
+	}
+	#talks section.wrapper div.middle ul li.text-area {
+		padding-top: 15px;
+	}
+	#talks section.wrapper div.middle ul li.text-area h3 {
+		font-size: 24px;
+    	color: #1c2327;
+    	font-weight: 600;
+   	 	margin-bottom: 10px;
+    	margin-left: 22px
+	}
+	#talks section.wrapper div.middle ul li.text-area p {
+		font-size: 12px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+	#talks section.wrapper div.bottom {
+		width: 100%;
+		height: 100px;
+		margin-top: -36px;
+	}
+	#talks section.wrapper div.bottom ul li span {
+		font-size: 30px;
+		font-weight: 800;
+	}
+	#talks section.wrapper div.bottom ul li img {
+		width: 113px;
+		margin-left: 40px;
+	}
+
+
+
+	#bottom-page {
+		width: 98%;
+		height: 773px;
+		background: green;
+		border-radius: 53% 47% 70% 30% / 64% 34% 66% 36%;
+		margin-top: 19px;
+		position: relative;
+	}
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 1280px;
+		height: 830px;
+		position: absolute;
+		top: 44px;
+		right: 0px;
+	}
+	#bottom-page section.wrapper section.data-area div.left img {
+		width: 71%;
+		height: 262px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#bottom-page section.wrapper section.data-area div.right form {
+		width: 99%;
+		height: 250px;
+		margin-left: 0px;
+		margin-bottom: 25px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 368px;
+		border-radius: 12px;
+		padding: 9px;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:980px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 543px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 545px;
+		display: block;
+	}
+	#top header section.wrapper section.header-section div.left h1 a img {
+		display: block;
+		width: 50px;
+		filter: invert(1);
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#top header section.wrapper section.header-section div.middle ul li a {
+		margin-left: 22px;
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 500;
+	}
+	#top header section.wrapper section.header-section div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 600;
+	}
+	#top section.spotlight-area {
+		position: absolute;
+		top: 97px;
+		left: 38px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content h1 {
+		color: #f8f8f8;
+		font-size: 29px;
+		font-weight: 600;
+		width: 48%;
+		margin-left: 0px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 11px;
+		width: 42%;
+		margin-left: 0px;
+		margin-top: 20px;
+		margin-bottom: 23px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 600;
+	}	
+
+
+
+	#about-service {
+		width: 100%;
+		height: 290px;
+		background: url(images/Vector\ 283.png)no-repeat;
+		background-size: 497px;
+		margin-top: -102px;
+		display: block;
+	}
+	#about-service section.wrapper div.content h2 {
+		font-size: 28px;
+		font-weight: 600;
+		margin-bottom: 8px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.content {
+		padding-top: 60px;
+		padding-left: 30px;
+	}
+	#about-service section.wrapper div.content p {
+		font-size: 10px;
+		font-weight: 500;
+		width: 55%;
+		margin-left: 0px;
+		color: #1c2327;
+	}
+
+
+	#our-services section.wrapper div.services-section div.heading h2 {
+		text-align: center;
+		font-size: 31px;
+		font-weight: 600;
+		color: #1c2327;
+		margin: 20px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img{
+		width: 70%;
+	}
+	#our-services section.wrapper div.services-section div.services ul li h3 {
+		font-size: 16px;
+		color: #1c2327;
+		font-weight: 600;
+		margin: 10px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li p {
+		font-size: 12px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 171px;
+		right: 89px;
+		width: 35px;
+		filter: invert(1);
+	}
+
+	#work {
+		width: 100%;
+		height: 456px;
+		background: url(images/Vector\ 284.png)no-repeat;
+		background-size: contain;
+		background-position: left;
+	}
+	#work section.wrapper div.work-area div.left img {
+		width: 85%;
+		height: 252px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#work section.wrapper div.work-area div.right h3 {
+		margin: 16px auto;
+		font-size: 26px;
+		color: #1c2327;
+		font-weight: 600;
+		width: 90%;
+	}	
+	#work section.wrapper div.work-area div.right {
+		margin-left: 10px;
+		padding-top: 24px;
+		width: 56%;
+	}
+	#work section.wrapper div.work-area div.right p {
+		font-size: 11px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+		margin-bottom: 12px;
+	}
+	#work section.wrapper div.work-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 600;
+		margin-left: 16px;
+	}
+
+
+	#confrence section.confrence-area div.left h2 {
+		margin-top: 166px;
+		font-size: 20px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 100%;
+	}
+	#confrence section.confrence-area div.right div.flex img {
+		width: 40px;
+	}
+	#confrence section.confrence-area div.right div.items img {
+		width: 40px;
+	}
+	#confrence section.confrence-area div.right div.items p {
+		font-size: 13px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 71%;
+		text-align: center;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 200px;
+		left: 185px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 15px;
+		left: 185px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.flex ul li p {
+		font-size: 10px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+		text-align: center;
+	}
+	#confrence section.confrence-area div.right div.flex ul li h3 {
+		font-size: 18px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	#confrence section.confrence-area div.right div.items h3 {
+		font-size: 18px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	#redefine {
+		width: 100%;
+		height: 456px;
+		background: url(images/Vector\ 285.png)no-repeat;
+		background-position: right;
+		background-size: contain;
+	}
+	#redefine section.wrapper section.redefine-area div.right img {
+		width: 93%;
+		height: 284px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#redefine section.wrapper section.redefine-area {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 37px;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 90px;
+		font-size: 23px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 90%;
+		margin-bottom: 5px;
+	}
+	#redefine section.wrapper section.redefine-area div.left p {
+		margin-bottom: 0px;
+		font-size: 10px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 83px;
+		font-size: 23px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 90%;
+		margin-bottom: 5px;
+		margin-left: 0px;
+	}
+	#redefine section.wrapper section.redefine-area div.left h3 {
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 0px;
+		font-size: 20px;
+		color: #1c2327;
+		font-weight: 600;
+	}
+
+
+	#talks section.wrapper div.top h2 {
+		font-size: 28px;
+		font-weight: 600;
+		color: #1c2327;
+	}
+	#talks section.wrapper div.middle {
+		width: 100%;
+		height: 280px;
+		margin-top: 20px;
+	}
+	#talks section.wrapper div.middle ul li.img-section {
+		position: relative;
+		width: 25%;
+		justify-content: center;
+		margin-left: 92px;
+	}
+	#talks section.wrapper div.middle ul li img.bgimage {
+		width: 195px;
+	}
+	#talks section.wrapper div.middle ul li img.man {
+		width: 34%;
+		height: 63px;
+		border-radius: 50%;
+		position: absolute;
+		border: 4px solid #fff;
+		left: 63px;
+		top: 58px;
+	}
+	#talks section.wrapper div.middle ul li.text-area h3 {
+		font-size: 22px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+		margin-left: 17px;
+	}
+	#talks section.wrapper div.middle ul li.text-area p {
+		font-size: 10px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+
+
+	#talks {
+		width: 100%;
+		height: 426px;
+	}
+	#talks section.wrapper div.bottom ul li span {
+		font-size: 22px;
+		font-weight: 800;
+	}
+	#talks section.wrapper div.bottom ul li img {
+		width: 100px;
+		margin-left: 29px;
+	}
+
+
+
+	#bottom-page {
+		width: 100%;
+		height: 681px;
+		background: green;
+		border-radius: 53% 47% 70% 30% / 64% 34% 66% 36%;
+		margin-top: 19px;
+		position: relative;
+	}
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 767px;
+		height: 638px;
+		position: absolute;
+		top: 44px;
+		right: 0px;
+	}
+	#bottom-page div.images img.grey {
+		display: block;
+		transform: rotate(180deg);
+		position: absolute;
+		right: 0px;
+		top: 29px;
+		width: 94%;
+		height: 77%;
+	}
+	#bottom-page div.images {
+		position: relative;
+		width: 100%;
+		height: 682px;
+	}
+	#bottom-page section.wrapper section.data-area div.left img {
+		width: 72%;
+		height: 222px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#bottom-page section.wrapper section.data-area div.right h3 {
+		font-size: 22px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=text] {
+		padding: 8px;
+		width: 39%;
+		margin-bottom: 10px;
+		border-radius: 12px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 289px;
+		border-radius: 12px;
+		padding: 8px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea.last {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 600;
+		margin-left: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form {
+		width: 99%;
+		height: 234px;
+		margin-left: 0px;
+		margin-bottom: -5px;
+	}
+	#bottom-page hr {
+		border: 1px solid #fff;
+		position: absolute;
+		bottom: 210px;
+		width: 82%;
+		margin-left: 66px;
+	}
+
+
+	#bottom-page footer section.wrapper section.footer-area div.one ul li p {
+		font-size: 15px;
+		font-weight: 600;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li p {
+		font-size: 13px;
+		font-weight: 600;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li ul li a img {
+		filter: invert(1);
+		padding: 7px 7px 0px 7px;
+		width: 24px;
+	}
+	#bottom-page footer section.wrapper section.footer-area ul li h4 {
+		font-size: 14px;
+	
+	}
+	#bottom-page footer section.wrapper section.footer-area ul li a {
+		color: #f8f8f8;
+		line-height: 2em;
+		font-size: 8px;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:768px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 452px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 451px;
+		display: block;
+	}
+	#top header section.wrapper section.header-section div.middle ul li a {
+		margin-left: 15px;
+		color: #f8f8f8;
+		font-size: 8px;
+		font-weight: 500;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content h1 {
+		color: #f8f8f8;
+		font-size: 24px;
+		font-weight: 600;
+		width: 48%;
+		margin-left: 0px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 10px;
+		width: 43%;
+		margin-left: 0px;
+		margin-top: 14px;
+		margin-bottom: 19px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 9px;
+		font-weight: 600;
+	}
+
+
+	#about-service {
+		width: 100%;
+		height: 268px;
+		background: url(images/Vector\ 283.png)no-repeat;
+		background-size: 453px;
+		margin-top: -102px;
+		display: block;
+	}
+	#about-service section.wrapper div.content h2 {
+		font-size: 23px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.content p {
+		font-size: 9px;
+		font-weight: 500;
+		width: 55%;
+		margin-left: 0px;
+		color: #1c2327;
+	}
+
+
+	#our-services section.wrapper div.services-section div.heading h2 {
+		text-align: center;
+		font-size: 26px;
+		font-weight: 600;
+		color: #1c2327;
+		margin: 15px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul {
+		display: flex;
+		justify-content: space-between;
+		margin: 30px auto;
+		align-items: center;
+		width: 90%;
+	}
+	#our-services section.wrapper div.services-section div.services ul li {
+		position: relative;
+		margin-left: -1px;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img {
+		width: 60%;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 139px;
+		right: 77px;
+		width: 27px;
+		filter: invert(1);
+	}
+	#our-services section.wrapper div.services-section div.services ul li h3 {
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 600;
+		margin: 10px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li p {
+		font-size: 10px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+
+
+	#work {
+		width: 100%;
+		height: 381px;
+		background: url(images/Vector\ 284.png)no-repeat;
+		background-size: contain;
+		background-position: left;
+	}
+	#work section.wrapper div.work-area div.left img {
+		width: 80%;
+		height: 175px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#work section.wrapper div.work-area {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding-top: 74px;
+	}
+	#work section.wrapper div.work-area div.right h3 {
+		margin: 16px auto;
+		font-size: 22px;
+		color: #1c2327;
+		font-weight: 600;
+		width: 90%;
+	}
+	#work section.wrapper div.work-area div.right p {
+		font-size: 10px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+		margin-bottom: 10px;
+	}
+	#work section.wrapper div.work-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 8px;
+		font-weight: 600;
+		margin-left: 16px;
+	}
+
+
+	#confrence {
+		width: 100%;
+		height: 346px;
+		background: #fff;
+	}
+	#confrence section.confrence-area div.left h2 {
+		margin-top: 166px;
+		font-size: 14px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 100%;
+	}
+	#confrence section.confrence-area div.right div.flex img {
+		width: 30px;
+	}
+	#confrence section.confrence-area div.right div.items img {
+		width: 30px;
+	}
+	#confrence section.confrence-area div.right div.flex ul li h3 {
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	#confrence section.confrence-area div.right div.flex ul li p {
+		font-size: 8px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+		text-align: center;
+	}
+	#confrence section.confrence-area div.right div.items h3 {
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	#confrence section.confrence-area div.right div.items p {
+		font-size: 9px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 72%;
+		text-align: center;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 44px;
+		left: 155px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 175px;
+		left: 155px;
+		text-align: center;
+		width: 50%;
+	}
+
+
+	#redefine {
+		width: 100%;
+		height: 379px;
+		background: url(images/Vector\ 285.png)no-repeat;
+		background-position: right;
+		background-size: contain;
+	}
+	#redefine section.wrapper section.redefine-area div.right img {
+		width: 89%;
+		height: 211px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 62px;
+		font-size: 20px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 94%;
+		margin-bottom: 5px;
+		margin-left: 0px;
+	}
+	#redefine section.wrapper section.redefine-area div.left p {
+		margin-bottom: 0px;
+		font-size: 8px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+	}
+
+
+	#talks {
+		width: 100%;
+		height: 360px;
+	}
+	#talks section.wrapper div.top h2 {
+		font-size: 22px;
+		font-weight: 600;
+		color: #1c2327;
+	}
+	#talks section.wrapper div.middle {
+		width: 100%;
+		height: 254px;
+		margin-top: 20px;
+	}
+	#talks section.wrapper div.middle ul li.img-section {
+		position: relative;
+		width: 25%;
+		justify-content: center;
+		margin-left: 78px;
+	}
+	#talks section.wrapper div.middle ul li img.bgimage {
+		width: 175px;
+	}
+	#talks section.wrapper div.middle ul li img.man {
+		width: 34%;
+		height: 52px;
+		border-radius: 50%;
+		position: absolute;
+		border: 4px solid #fff;
+		left: 63px;
+		top: 58px;
+	}
+	#talks section.wrapper div.middle ul li.text-area h3 {
+		font-size: 18px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 10px;
+		margin-left: 17px;
+	}
+	#talks section.wrapper div.middle ul li.text-area p {
+		font-size: 9px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+	#talks section.wrapper div.bottom ul li span {
+		font-size: 18px;
+		font-weight: 800;
+	}
+	#talks section.wrapper div.bottom ul li img {
+		width: 78px;
+		margin-left: 29px;
+	}
+
+
+	#bottom-page div.images {
+		position: relative;
+		width: 100%;
+		height: 513px;
+	}
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 647px;
+		height: 469px;
+		position: absolute;
+		top: 44px;
+		right: 0px;
+	}
+	#bottom-page div.images img.grey {
+		display: block;
+		transform: rotate(180deg);
+		position: absolute;
+		right: 0px;
+		top: 25px;
+		width: 94%;
+		height: 78%;
+	}
+	#bottom-page {
+		width: 100%;
+		height: 513px;
+		background: green;
+		border-radius: 53% 47% 70% 30% / 64% 34% 66% 36%;
+		margin-top: 19px;
+		position: relative;
+	}
+	#bottom-page section.wrapper section.data-area div.right h3 {
+		font-size: 18px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	#bottom-page section.data-area {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 57px;
+	}
+	#bottom-page section.wrapper section.data-area div.left img {
+		width: 70%;
+		height: 175px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=text] {
+		padding: 7px;
+		width: 39%;
+		margin-bottom: 7px;
+		font-size: 10px;
+		border-radius: 12px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=number] {
+		padding: 7px;
+		width: 39%;
+		margin-bottom: 20px;
+		border-radius: 12px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 241px;
+		border-radius: 12px;
+		padding: 8px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 8px;
+		font-weight: 600;
+		margin-left: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form {
+		width: 99%;
+		height: 196px;
+		margin-left: 0px;
+		margin-bottom: -5px;
+	}
+	#bottom-page hr {
+		border: 1px solid #fff;
+		position: absolute;
+		bottom: 166px;
+		width: 82%;
+		margin-left: 66px;
+	}
+	#bottom-page footer {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 142px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li ul.icon-social li.icon {
+		background: rgb(50, 196, 50);
+		border-radius: 8px;
+		margin-left: 3px;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:640px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 339px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 340px;
+		display: block;
+	}
+	#top header section.wrapper section.header-section div.middle ul {
+		display: flex;
+		justify-content: space-between;
+		display: none;
+	}
+	#top header section.wrapper section.header-section div.left h1 a img {
+		display: block;
+		width: 40px;
+		filter: invert(1);
+		margin-top: 10px;
+		margin-left: -26px;
+	}	
+	#top header section.wrapper section.header-section div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 7px;
+		font-weight: 600;
+		margin-left: 155px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content h1 {
+		color: #f8f8f8;
+		font-size: 15px;
+		font-weight: 600;
+		width: 48%;
+		margin-left: 0px;
+	}
+	#top section.spotlight-area {
+		position: absolute;
+		top: 66px;
+		left: 24px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 8px;
+		width: 43%;
+		margin-left: 0px;
+		margin-top: 14px;
+		margin-bottom: 11px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 8px;
+		width: 43%;
+		margin-left: 0px;
+		margin-top: 10px;
+		margin-bottom: 11px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 8px 11px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 7px;
+		font-weight: 600;
+	}
+	#about-service {
+		width: 100%;
+		height: 194px;
+		background: url(images/Vector\ 283.png)no-repeat;
+		background-size: 355px;
+		margin-top: -53px;
+		display: block;
+	}
+	#about-service section.wrapper div.content h2 {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.content {
+		padding-top: 44px;
+		padding-left: 30px;
+	}
+	#about-service section.wrapper div.content p {
+		font-size: 8px;
+		font-weight: 500;
+		width: 73%;
+		margin-left: 0px;
+		color: #1c2327;
+	}
+
+	#our-services section.wrapper div.services-section div.heading h2 {
+		text-align: center;
+		font-size: 20px;
+		font-weight: 600;
+		color: #1c2327;
+		margin: 15px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul {
+		display: flex;
+		justify-content: space-between;
+		margin: 30px auto;
+		align-items: center;
+		width: 90%;
+		flex-direction: column;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img {
+		width: 25%;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 105px;
+		right: 183px;
+		width: 27px;
+		filter: invert(1);
+	}
+
+
+	#work {
+		width: 100%;
+		height: 301px;
+		background: url(images/Vector\ 284.png)no-repeat;
+		background-size: contain;
+		background-position: left;
+		background: #fff;
+	}
+	#work section.wrapper div.work-area div.right h3 {
+		margin: 10px auto;
+		font-size: 15px;
+		color: #1c2327;
+		font-weight: 600;
+		width: 104%;
+	}
+	#work section.wrapper div.work-area div.right p {
+		font-size: 9px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#work section.wrapper div.work-area {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding-top: 16px;
+	}
+	#work section.wrapper div.work-area div.left{
+		padding-top: 50px;
+	}
+	#work section.wrapper div.work-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 10px 14px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 7px;
+		font-weight: 600;
+		margin-left: 6px;
+	}
+	
+	
+	#confrence section.confrence-area {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 425px;
+		flex-direction: column;
+	}
+	#confrence section.confrence-area div.left h2 {
+		margin-top: -40px;
+		font-size: 14px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 100%;
+	}
+	#confrence section.wrapper section.confrence-area div.right div.flex{
+		margin-left: -77px;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 175px;
+		left: 100px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 44px;
+		left: 100px;
+		text-align: center;
+		width: 50%;
+	}
+
+
+	#redefine {
+		width: 100%;
+		height: 358px;
+		background: url(images/Vector\ 285.png)no-repeat;
+		background-position: right;
+		background-size: contain;
+		background: #fff;
+	}
+	#redefine section.wrapper section.redefine-area div.right img {
+		width: 100%;
+		height: 173px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+		margin-top: 87px;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 62px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 94%;
+		margin-bottom: 5px;
+		margin-left: 0px;
+	}
+	#redefine section.wrapper section.redefine-area div.left p {
+		margin-bottom: 0px;
+		font-size: 8px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 92%;
+	}
+
+
+	#talks section.wrapper div.middle ul li.img-section {
+		position: relative;
+		width: 32%;
+		justify-content: center;
+		margin-left: 17px;
+	}
+	#talks section.wrapper div.bottom ul li span {
+		font-size: 14px;
+		font-weight: 800;
+	}
+	#talks section.wrapper div.bottom ul li img {
+		width: 67px;
+		margin-left: 14px;
+	}
+	#bottom-page section.wrapper section.data-area div.left img {
+		width: 70%;
+		height: 175px;
+		border-radius: 61% 39% 62% 38% / 41% 51% 49% 59%;
+		display: block;
+		display: none;
+	}
+
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 484px;
+		height: 388px;
+		position: absolute;
+		top: 44px;
+		right: 0px;
+	}
+	#bottom-page {
+		width: 100%;
+		height: 430px;
+		background: green;
+		border-radius: 53% 47% 70% 30% / 64% 34% 66% 36%;
+		margin-top: 19px;
+		position: relative;
+	}
+	#bottom-page div.images {
+		position: relative;
+		width: 100%;
+		height: 432px;
+	}
+	#bottom-page section.data-area {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 25px;
+	}
+	#bottom-page section.wrapper section.data-area div.left {
+		width: 0px;
+		display: none;
+	}
+	#bottom-page section.wrapper section.data-area div.right h3 {
+		font-size: 16px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 9px;
+		color: #fff;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 210px;
+		border-radius: 12px;
+		padding: 8px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=text] {
+		padding: 7px;
+		width: 45%;
+		margin-bottom: 7px;
+		font-size: 10px;
+		border-radius: 12px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=number] {
+		padding: 7px;
+		width: 44%;
+		margin-bottom: 6px;
+		border-radius: 12px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form {
+		width: 99%;
+		height: 174px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	#bottom-page section.wrapper section.data-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 12px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 8px;
+		font-weight: 600;
+		margin-left: 34px;
+	}
+	#bottom-page div.images img.grey {
+		display: block;
+		transform: rotate(180deg);
+		position: absolute;
+		right: 0px;
+		top: 37px;
+		width: 97%;
+		height: 73%;
+	}
+	#bottom-page hr {
+		border: 1px solid #fff;
+		position: absolute;
+		bottom: 147px;
+		width: 82%;
+		margin-left: 43px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li p {
+		font-size: 11px;
+		font-weight: 600;
+	}
+	#bottom-page footer section.wrapper section.footer-area ul li a {
+		color: #f8f8f8;
+		line-height: 0em;
+		font-size: 7px;
+	}
+	#bottom-page footer section.wrapper section.footer-area ul li h4 {
+		font-size: 11px;
+	}
+	#bottom-page footer {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 125px;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:480px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 254px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 255px;
+		display: block;
+	}
+	#top header {
+		width: 100%;
+		height: 80px;
+		position: absolute;
+		top: 0px;
+	}
+	#top section.spotlight-area {
+		position: absolute;
+		top: 55px;
+		left: 24px;
+	}
+	#top header section.wrapper section.header-section div.left h1 a img {
+		display: block;
+		width: 31px;
+		filter: invert(1);
+		margin-top: 10px;
+		margin-left: 13px;
+	}
+	#top header section.wrapper section.header-section div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 10px 18px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 7px;
+		font-weight: 600;
+		margin-left: 155px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content h1 {
+		color: #f8f8f8;
+		font-size: 10px;
+		font-weight: 600;
+		width: 43%;
+		margin-left: 0px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content p {
+		color: #f8f8f8;
+		font-size: 6px;
+		width: 54%;
+		margin-left: 0px;
+		margin-top: 4px;
+		margin-bottom: 3px;
+	}
+	#about-service {
+		width: 100%;
+		height: 184px;
+		background: url(images/Vector\ 283.png)no-repeat;
+		background-size: 261px;
+		margin-top: -119px;
+		display: block;
+		background: rgb(213, 225, 220);
+	}
+	#about-service section.wrapper div.content {
+		padding-top: 42px;
+		padding-left: 30px;
+	}
+	#about-service section.wrapper div.content h2 {
+		font-size: 12px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		color: #1c2327;
+	}
+	#about-service section.wrapper div.services-section div.services{
+		background: #f8f8f8;
+	}
+	#our-services section.wrapper div.services-section div.heading h2 {
+		text-align: center;
+		font-size: 20px;
+		font-weight: 600;
+		color: #1c2327;
+		margin: 23px auto;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 113px;
+		right: 134px;
+		width: 23px;
+		filter: invert(1);
+	}
+	#work {
+		width: 100%;
+		height: 301px;
+		background: url(images/Vector\ 284.png)no-repeat;
+		background-size: contain;
+		background-position: left;
+		background: #f8f8f8;
+	}
+	#work section.wrapper div.work-area {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding-top: 0px;
+		height: 280px;
+		
+	}
+	#work section.wrapper div.work-area div.left {
+		padding-top: 50px;
+		display: none;
+	}
+	#work section.wrapper div.work-area div.right {
+		margin: 0 auto;
+		padding-top: 24px;
+		width: 56%;
+		text-align: center;
+	}
+	#work section.wrapper div.work-area div.right h3 {
+		margin: 7px auto;
+		font-size: 14px;
+		color: #1c2327;
+		font-weight: 600;
+		width: 104%;
+	}
+	#confrence section.confrence-area {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 335px;
+		flex-direction: column;
+	}
+	#confrence {
+		width: 100%;
+		height: 346px;
+		background: #fff;
+	}
+	#confrence section.confrence-area div.right div.items img {
+		width: 25px;
+	}
+	#confrence section.confrence-area div.right div.flex img {
+		width: 25px;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 44px;
+		left: 86px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.left h2 {
+		margin-top: -19px;
+		font-size: 14px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 100%;
+	}
+	#confrence section.confrence-area div.right div.flex ul li:first-child {
+		margin-left: 70px;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 166px;
+		left: 86px;
+		text-align: center;
+		width: 50%;
+	}
+
+	#redefine section.wrapper section.redefine-area {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 0px;
+	}
+	#redefine section.wrapper section.redefine-area div.right {
+		width: 50%;
+		display: none;
+	}
+	#redefine section.wrapper section.redefine-area div.left {
+		width: 95%;
+		text-align: center;
+	}
+	#redefine {
+		width: 100%;
+		height: 243px;
+		background: url(images/Vector\ 285.png)no-repeat;
+		background-position: right;
+		background-size: contain;
+		background: #f8f8f8;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 56px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 94%;
+		margin-bottom: 9px;
+		margin-left: 0px;
+	}
+	#redefine section.wrapper section.redefine-area div.left h3 {
+		margin-bottom: 5px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 16px;
+		color: #1c2327;
+		font-weight: 600;
+	}
+
+	#talks {
+		width: 100%;
+		height: 360px;
+		background: #fff;
+	}
+	#talks section.wrapper div.top {
+		width: 100%;
+		height: 18px;
+		margin-top: 36px;
+		text-align: center;
+	}
+	#talks section.wrapper div.top h2 {
+		font-size: 16px;
+		font-weight: 600;
+		color: #1c2327;
+	}
+	#talks section.wrapper div.middle ul li img.bgimage {
+		width: 126px;
+	}
+	#talks section.wrapper div.middle ul li img.man {
+		width: 36%;
+		height: 38px;
+		border-radius: 50%;
+		position: absolute;
+		border: 2px solid #fff;
+		left: 42px;
+		top: 42px;
+	}
+	#talks section.wrapper div.middle ul li.text-area {
+		padding-top: 0px;
+	}
+	#talks section.wrapper div.middle ul li.img-section {
+		position: relative;
+		width: 32%;
+		justify-content: center;
+		margin-left: 3px;
+		margin-top: 42px;
+	}
+	#talks section.wrapper div.middle ul li.text-area h3 {
+		font-size: 15px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 16px;
+		margin-left: -51px;
+	}
+	#talks section.wrapper div.middle ul li.text-area p {
+		font-size: 8px;
+		color: #1c2327;
+		font-weight: 500;
+		width: 90%;
+	}
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 365px;
+		height: 387px;
+		position: absolute;
+		top: 20px;
+		right: 0px;
+	}
+
+	#bottom-page {
+		width: 100%;
+		height: 397px;
+		background: green;
+		border-radius: 53% 47% 70% 30% / 64% 34% 66% 36%;
+		margin-top: 20px;
+		position: relative;
+	}
+	#bottom-page div.images {
+		position: relative;
+		width: 100%;
+		height: 405px;
+	}
+	#bottom-page section.data-area {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 13px;
+	}
+	#bottom-page section.wrapper section.data-area div.right {
+		width: 55%;
+	}
+	#bottom-page section.wrapper section.data-area div.right form {
+		width: 99%;
+		height: 158px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=text] {
+		padding: 5px;
+		width: 48%;
+		margin-bottom: 7px;
+		font-size: 10px;
+		border-radius: 12px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=number] {
+		padding: 5px;
+		width: 48%;
+		margin-bottom: 6px;
+		border-radius: 12px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 183px;
+		border-radius: 12px;
+		padding: 6px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right h3 {
+		font-size: 16px;
+		color: #1c2327;
+		font-weight: 600;
+		margin-bottom: 9px;
+		color: #fff;
+		text-align: center;
+	}
+	#bottom-page section.wrapper section.data-area div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 11px 24px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 6px;
+		font-weight: 600;
+		margin-left: 33px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.two {
+		padding-top: 24px;
+		display: none;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li p {
+		font-size: 8px;
+		font-weight: 600;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.three ul{
+		margin-left: 28px;
+		line-height: 14px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.four {
+		padding-top: 2px;
+		line-height: 14px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:360px){
+	#top {
+		background: url(images/Vector\ 279.png)no-repeat;
+		background-size: cover,contain;
+		width: 100%;
+		height: 226px;
+		position: relative;
+	}
+	#top div.subtract-image img {
+		width: 100%;
+		height: 227px;
+		display: block;
+	}
+	#top header {
+		width: 100%;
+		height: 48px;
+		position: absolute;
+		top: 0px;
+	}
+	#top section.spotlight-area {
+		position: absolute;
+		top: 50px;
+		left: 24px;
+	}
+	#top section.spotlight-area section.wrapper div.spotlight-content a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 6px 9px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 6px;
+		font-weight: 600;
+	}
+	#about-service section.wrapper div.content h2 {
+		font-size: 12px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		color: #1c2327;
+		margin-left: -13px;
+	}
+	#about-service section.wrapper div.content p {
+		font-size: 7px;
+		font-weight: 500;
+		width: 73%;
+		margin-left: -13px;
+		color: #1c2327;
+	}
+	#top header section.wrapper section.header-section div.right a.button {
+		background: rgb(32,190,77);
+		background: linear-gradient(98deg, rgba(32,190,77,1) 50%, rgba(135,248,163,1) 100%);
+		padding: 8px 16px;
+		border-radius: 18px;
+		color: #f8f8f8;
+		font-size: 7px;
+		font-weight: 600;
+		margin-left: 155px;
+	}
+	#our-services section.wrapper div.services-section div.services ul li img.logo {
+		position: absolute;
+		bottom: 110px;
+		right: 119px;
+		width: 21px;
+		filter: invert(1);
+	}
+	#confrence section.confrence-area div.right div.flex ul li:first-child {
+		margin-left: 78px;
+	}
+	#confrence section.confrence-area div.right div.flex ul li:last-child {
+		margin-left: 48px;
+	}
+	#confrence section.confrence-area div.right div.items div.top {
+		position: absolute;
+		top: 44px;
+		left: 75px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence section.confrence-area div.right div.items div.bottom {
+		position: absolute;
+		top: 183px;
+		left: 75px;
+		text-align: center;
+		width: 50%;
+	}
+	#confrence {
+		width: 100%;
+		height: 365px;
+		background: #fff;
+	}
+	#redefine section.wrapper section.redefine-area div.left h2 {
+		margin-top: 24px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #1c2327;
+		width: 94%;
+		margin-bottom: 9px;
+		margin-left: 0px;
+	}
+	#talks section.wrapper div.middle ul li img.bgimage {
+		width: 123px;
+	}
+	#talks section.wrapper div.middle ul li img.man {
+		width: 36%;
+		height: 35px;
+		border-radius: 50%;
+		position: absolute;
+		border: 2px solid #fff;
+		left: 42px;
+		top: 42px;
+	}
+	#bottom-page div.images img.dark-blue {
+		display: block;
+		width: 325px;
+		height: 385px;
+		position: absolute;
+		top: 20px;
+		right: 0px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=text] {
+		padding: 5px 9px;
+		width: 48%;
+		margin-bottom: 7px;
+		font-size: 10px;
+		border-radius: 12px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form input[type=number] {
+		padding: 5px 6px;
+		width: 48%;
+		margin-bottom: 6px;
+		border-radius: 12px;
+		font-size: 10px;
+	}
+	#bottom-page section.wrapper section.data-area div.right form textarea {
+		background: #f8f8f8;
+		width: 166px;
+		border-radius: 12px;
+		padding: 6px;
+		font-size: 10px;
+	}
+	#bottom-page hr {
+		border: 1px solid #fff;
+		position: absolute;
+		bottom: 149px;
+		width: 75%;
+		margin-left: 43px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li p {
+		font-size: 7px;
+		font-weight: 600;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li ul li a img {
+		filter: invert(1);
+		padding: 0px 5px 1px 6px;
+		width: 22px;
+	}
+	#bottom-page footer section.wrapper section.footer-area div.one ul li ul.icon-social li.icon {
+		background: rgb(50, 196, 50);
+		border-radius: 6px;
+		margin-left: 2px;
+	}
+	
+}
